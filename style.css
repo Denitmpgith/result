@@ -24,7 +24,7 @@
 
 .box_1 {
   width: 100%;
-  height: 500px;
+  height: 1080px;
   /* background-image: url(/img/Background/natur.jpg);
   display: flex;
   justify-content: center;
@@ -35,8 +35,8 @@
 
 .box_1_1 {
   position: absolute;
-  margin-top: 150px;
-  width: 80%;
+  margin-top: 400px;
+  width: 70%;
   height: 200px;
   opacity: 0.2;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
@@ -44,7 +44,7 @@
 
 .box_1_2 {
   width: 100%;
-  height: 500px;
+  height: 1080px;
   overflow: hidden;
 }
 
@@ -56,8 +56,9 @@
 .box_2_1 {
   float: left;
   width: 59%;
-  height: 100px;
-  margin: 0.5%;
+  height: 240px;
+  margin-left: 5px;
+  margin-top: 5px;
   background-color: blue;
   z-index: 2;
   line-height: 100px;
@@ -67,7 +68,8 @@
   float: right;
   width: 39%;
   height: 240px;
-  margin: 0.5%;
+  margin-right: 5px;
+  margin-top: 5px;
   background-color: green;
 }
 
