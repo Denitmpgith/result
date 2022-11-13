@@ -1,7 +1,7 @@
 .navbar {
   position: absolute;
   width: 100%;
-  height: 70px;
+  height: 50px;
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
 }
 
@@ -24,7 +24,7 @@
 
 .box_1 {
   width: 100%;
-  height: 250px;
+  height: 500px;
   /* background-image: url(/img/Background/natur.jpg);
   display: flex;
   justify-content: center;
@@ -44,7 +44,7 @@
 
 .box_1_2 {
   width: 100%;
-  height: 250px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -55,16 +55,19 @@
 
 .box_2_1 {
   float: left;
-  width: 60%;
-  height: 250px;
+  width: 59%;
+  height: 100px;
+  margin: 0.5%;
   background-color: blue;
   z-index: 2;
+  line-height: 100px;
 }
 
 .box_2_2 {
   float: right;
-  width: 40%;
-  height: 250px;
+  width: 39%;
+  height: 240px;
+  margin: 0.5%;
   background-color: green;
 }
 
