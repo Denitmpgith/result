@@ -7,13 +7,15 @@
 
 .header {
   float: left;
-  margin: 15px;
+  margin-top: 15px;
+  margin-left: 20px;
   color: whitesmoke;
 }
 
 .navigasi {
   float: right;
-  margin: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
 }
 
 .navigasi a {
@@ -75,6 +77,6 @@
 
 .box_3 {
   width: 100%;
-  height: 250px;
+  height: 1080px;
   background-color: violet;
 }
