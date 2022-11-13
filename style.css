@@ -1,7 +1,7 @@
 .navbar {
   position: absolute;
   width: 100%;
-  height: 50px;
+  height: 45px;
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
 }
 
@@ -24,51 +24,62 @@
   padding: 5px;
 }
 
-.box_1 {
+.box {
+  min-height: 150px;
   width: 100%;
+}
+
+.satu {
   height: 1080px;
-  /* background-image: url(/img/Background/natur.jpg);
+  top: 50%;
+  right: 50%;
+  left: 50%;
+  bottom: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 100vh; */
+  min-height: 100vh;
 }
 
-.box_1_1 {
+.text_1{
   position: absolute;
-  margin-top: 800px;
-  width: 70%;
-  height: 275px;
-  opacity: 0.25;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  left: 0;
+  right: 0;
+  color: #fff;
+  font-size: 100px;
 }
 
-.box_1_2 {
+.satu_satu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 200px;
+  opacity: 0.1;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.satu_dua {
   width: 100%;
   height: 1080px;
   overflow: hidden;
 }
-
-.box_1_3 {
-  text-align: center;
-  justify-content: center;
-  width: 100%;
-  height: 25px;
-  background-color: rgba(39, 39, 39, 0.2);
-}
-.box_1_3 p a {
+/* 
+.satu_tiga p a {
   text-justify: auto;
   text-decoration: none;
   color: rgb(71, 71, 71);
 }
 
-.box_2 {
+.box.2 {
   width: 100%;
   height: 250px;
 }
 
-.box_2_1 {
+.box.2.1 {
   float: left;
   width: 57.5%;
   height: 240px;
@@ -81,7 +92,7 @@
   line-height: 100px; */
 }
 
-.box_2_2 {
+.box.2.2 {
   float: right;
   width: 37.5%;
   height: 240px;
@@ -90,8 +101,23 @@
   /* background-color: green; */
 }
 
-.box_3 {
+.box.3 {
   width: 100%;
   height: 1080px;
   overflow: hidden;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  line-height: 20px;
+  background-color: rgb(80, 80, 80);
+  font-size: 15px;
+}
+
+/*untuk layar device berukuran kecil*/
+@media screen and (min-width: 450px) {
+  .satu_satu {
+    width: 75%;
+  }
 }
