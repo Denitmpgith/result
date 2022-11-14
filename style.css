@@ -25,7 +25,9 @@
 }
 
 .box1 {
-  height: 1000px;
+  width: 100%;
+  height: 500px;
+  background-color: blueviolet;
 }
 
 .footer {
@@ -38,7 +40,6 @@
 
 .footer a {
   font-size: 15px;
-  color: white;
   text-decoration: none;
 }
 
