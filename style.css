@@ -36,7 +36,7 @@
 .box1_1_1 {
   width: auto;
   height: 500px;
-  background-image: url(img/natur.jpg);
+  background-image: url(img/natur2.jpg);
 }
 
 .box2 {
@@ -135,5 +135,11 @@
   .box2_1,
   .box2_2 {
     width: 40%;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .box1_1_1 {
+    background-image: url(img/natur.jpg);
   }
 }
