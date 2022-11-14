@@ -104,13 +104,16 @@
 .box3_1 p {
   text-align: center;
   font-size: 25px;
+  color: rgba(25, 107, 161);
   /* background-color: chocolate; */
 }
 
 .box3_1_1 {
   padding: 25px;
   width: 100%;
-  background-color: chocolate;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, rgb(25, 107, 161, 0.5), rgba(25, 107, 161, 0.75), rgb(25, 107, 161, 0.5), rgba(25, 107, 161, 0.75), rgb(25, 107, 161, 0.5));
+  /* background-color: rgb(69, 150, 187); */
 }
 
 .box3_1_1_1 {
