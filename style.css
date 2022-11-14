@@ -30,20 +30,31 @@
 }
 
 .box2 {
-  width: 1100%;
+  width: 100%;
   margin: 0px auto 0px;
-  background-color: rgb(55, 3, 104);
+  /* background-color: rgb(55, 3, 104); */
   overflow: auto;
 }
 
 .box2_1 {
   float: left;
-  text-align: center;
   padding: 10px;
   width: 100%;
   height: 180px;
-  color: white;
-  background-color: rgb(3, 104, 42);
+  color: rgb(75, 75, 75);
+  /*background-color: rgb(3, 104, 42); */
+}
+
+.box2_1 p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.box2_1_1 p {
+  text-align: left;
+  padding-top: 25px;
+  line-height: 15px;
+  font-size: 15px;
 }
 
 .box2_2 {
@@ -52,12 +63,27 @@
   padding: 10px;
   width: 100%;
   height: 180px;
-  color: white;
-  background-color: rgb(104, 3, 70);
+  color: rgb(75, 75, 75);
+  /* background-color: rgb(104, 3, 70); */
 }
 
-.clear {
+.box2_2 p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.box2_2_2 p {
+  text-align: left;
+  padding-top: 25px;
+  line-height: 15px;
+  font-size: 15px;
+}
+
+.clear_l {
   clear: left;
+}
+
+.clear_r {
   clear: right;
 }
 
