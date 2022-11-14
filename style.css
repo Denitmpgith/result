@@ -121,14 +121,14 @@
 .box3_1_1_1_1 {
   float: left;
   margin: 2px;
-  width: 150px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_1_1 {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   background-color: white;
 }
 
@@ -141,14 +141,14 @@
 .box3_1_1_1_2 {
   float: left;
   margin: 2px;
-  width: 150px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
   /* background-color: rgb(200, 255, 0); */
 }
 
 .box3_1_1_1_2_1 {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   background-color: white;
 }
 
@@ -161,14 +161,14 @@
 .box3_1_1_1_3 {
   float: left;
   margin: 2px;
-  width: 150px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
   /* background-color: rgb(200, 255, 0); */
 }
 
 .box3_1_1_1_3_1 {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   background-color: white;
 }
 
@@ -181,14 +181,14 @@
 .box3_1_1_1_4 {
   float: left;
   margin: 2px;
-  width: 150px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
   /* background-color: rgb(0, 162, 255); */
 }
 
 .box3_1_1_1_4_1 {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   background-color: white;
 }
 
@@ -201,14 +201,14 @@
 .box3_1_1_1_5 {
   float: left;
   margin: 2px;
-  width: 150px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
   /* background-color: rgb(255, 0, 179); */
 }
 
 .box3_1_1_1_5_1 {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   background-color: white;
 }
 
