@@ -115,7 +115,7 @@
 .box3_1_1 {
   margin: auto;
   padding: 10px;
-  width: auto;
+  width: 270px;
   border-radius: 25px;
   background-image: linear-gradient(to right, rgb(25, 107, 161, 0.5), rgba(25, 107, 161, 0.75), rgb(25, 107, 161, 0.5), rgba(25, 107, 161, 0.75), rgb(25, 107, 161, 0.5));
   /* background-color: rgb(69, 150, 187); */
@@ -129,14 +129,14 @@
 .box3_1_1_1_1 {
   float: left;
   margin: 10px;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_1_1 {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   background-color: white;
   background-image: url(img/small/image1.jpg);
   background-repeat: no-repeat;
@@ -154,14 +154,14 @@
 .box3_1_1_1_2 {
   float: left;
   margin: 10px;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_2_1 {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   background-color: white;
   background-image: url(img/small/image2.jpg);
   background-repeat: no-repeat;
@@ -179,14 +179,14 @@
 .box3_1_1_1_3 {
   float: left;
   margin: 10px;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_3_1 {
-  height: 300px;
-  width: 300px;
+  height: 179px;
+  width: 250px;
   /* background-color: white; */
   background-image: url(img/small/image3.jpg);
   background-repeat: no-repeat;
@@ -204,14 +204,14 @@
 .box3_1_1_1_4 {
   float: left;
   margin: 10px;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_4_1 {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   background-color: white;
   /* background-image: url(img/small/image3.jpg); */
   background-repeat: no-repeat;
@@ -229,14 +229,14 @@
 .box3_1_1_1_5 {
   float: left;
   margin: 10px;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_5_1 {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   background-color: white;
   /* background-image: url(img/small/image3.jpg); */
   background-repeat: no-repeat;
@@ -254,14 +254,14 @@
 .box3_1_1_1_6 {
   float: left;
   margin: 10px;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_6_1 {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   background-color: white;
   /* background-image: url(img/small/image3.jpg); */
   background-repeat: no-repeat;
@@ -279,14 +279,14 @@
 .box3_1_1_1_7 {
   float: left;
   margin: 10px;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_7_1 {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   background-color: white;
   /* background-image: url(img/small/image3.jpg); */
   background-repeat: no-repeat;
@@ -304,14 +304,14 @@
 .box3_1_1_1_8 {
   float: left;
   margin: 10px;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_8_1 {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   background-color: white;
   /* background-image: url(img/small/image3.jpg); */
   background-repeat: no-repeat;
@@ -329,14 +329,14 @@
 .box3_1_1_1_9 {
   float: left;
   margin: 10px;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_9_1 {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   background-color: white;
   /* background-image: url(img/small/image3.jpg); */
   background-repeat: no-repeat;
@@ -354,14 +354,14 @@
 .box3_1_1_1_10 {
   float: left;
   margin: 10px;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   /* background-color: blue; */
 }
 
 .box3_1_1_1_10_1 {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   background-color: white;
   /* background-image: url(img/small/image3.jpg); */
   background-repeat: no-repeat;
@@ -403,5 +403,11 @@
 @media screen and (min-width: 450px) {
   .box1_1_1 {
     background-image: url(img/natur.jpg);
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .box3_1_1 {
+    width: auto;
   }
 }
