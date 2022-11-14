@@ -218,6 +218,106 @@
   font-size: 15px;
 }
 
+.box3_1_1_1_6 {
+  float: left;
+  margin: 2px;
+  width: 250px;
+  height: 300px;
+  /* background-color: rgb(255, 0, 179); */
+}
+
+.box3_1_1_1_6_1 {
+  height: 250px;
+  width: 250px;
+  background-color: white;
+}
+
+.box3_1_1_1_6 p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.box3_1_1_1_7 {
+  float: left;
+  margin: 2px;
+  width: 250px;
+  height: 300px;
+  /* background-color: rgb(255, 0, 179); */
+}
+
+.box3_1_1_1_7_1 {
+  height: 250px;
+  width: 250px;
+  background-color: white;
+}
+
+.box3_1_1_1_7 p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.box3_1_1_1_8 {
+  float: left;
+  margin: 2px;
+  width: 250px;
+  height: 300px;
+  /* background-color: rgb(255, 0, 179); */
+}
+
+.box3_1_1_1_8_1 {
+  height: 250px;
+  width: 250px;
+  background-color: white;
+}
+
+.box3_1_1_1_8 p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.box3_1_1_1_9 {
+  float: left;
+  margin: 2px;
+  width: 250px;
+  height: 300px;
+  /* background-color: rgb(255, 0, 179); */
+}
+
+.box3_1_1_1_9_1 {
+  height: 250px;
+  width: 250px;
+  background-color: white;
+}
+
+.box3_1_1_1_9 p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.box3_1_1_1_10 {
+  float: left;
+  margin: 2px;
+  width: 250px;
+  height: 300px;
+  /* background-color: rgb(255, 0, 179); */
+}
+
+.box3_1_1_1_10_1 {
+  height: 250px;
+  width: 250px;
+  background-color: white;
+}
+
+.box3_1_1_1_10 p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
 .clear {
   clear: both;
 }
