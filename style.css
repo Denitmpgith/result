@@ -91,12 +91,26 @@
 
 .box3 {
   width: 100%;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .box3_1 {
+  margin: 0px auto 0px;
+  width: 100%;
+  height: 50px;
+  /* background-color: chocolate; */
+}
+
+.box3_1 p {
+  text-align: center;
+  font-size: 25px;
+  /* background-color: chocolate; */
+}
+
+.box3_1_1 {
   width: 100%;
   height: 500px;
+  background-color: chocolate;
 }
 
 .clear {
