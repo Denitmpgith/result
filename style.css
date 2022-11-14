@@ -74,22 +74,38 @@
 }
 
 .dua {
-  height: 500px;
+  padding: 20px;
+  float: left;
+  width: 100%;
   background-color: #00ffff;
 }
 
 .dua_satu {
+  padding: 20px;
+  float: left;
   width: 100%;
-  height: 240px;
-  margin: 5px;
   background-color: blue;
 }
 
-.dua_dua {
+.dua_satu_satu {
+  width: 50px;
+  height: 100px;
   width: 100%;
-  height: 240px;
-  margin: 5px;
+  background-color: orange;
+}
+
+.dua_dua {
+  padding: 20px;
+  float: left;
+  width: 100%;
   background-color: green;
+}
+
+.dua_dua_dua {
+  width: 50px;
+  height: 100px;
+  width: 100%;
+  background-color: orange;
 }
 
 .footer {
@@ -104,6 +120,7 @@
 @media screen and (min-width: 450px) {
   .dua_satu,
   .dua_dua {
-    width: 47.5%;
+    padding: 20px;
+    width: 30%;
   }
 }
