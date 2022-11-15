@@ -1,72 +1,483 @@
-div {
-  width: 100%;
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: rgb(0, 0, 0, 0.5);
 }
 
-h1 {
-  font-size: 100px;
-  color: rgb(245, 245, 245, 0.5);
-}
-
-a {
-  text-decoration: none;
-  font-size: 15px;
-  color: rgb(150, 0, 0, 0.75);
+h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(25, 107, 161, 0.5);
 }
 
 p {
+  padding-top: 5px;
+  padding-left: 5px;
+  text-align: left;
   font-size: 15px;
-  color: rgb(0, 0, 0, 0.75);
+  line-height: 15px;
+  color: rgb(0, 0, 0, 0.5);
 }
 
-.home {
+ul {
+  text-align: left;
+  font-size: 15px;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+li {
+  text-align: left;
+  padding-top: 25px;
+  font-size: 15px;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 45px;
+  background-color: rgb(69, 150, 187, 0.1);
+  box-shadow: 0px 0px 10px black;
+}
+
+.header {
+  float: left;
+  margin-top: 15px;
+  margin-left: 20px;
+  color: rgb(255, 225, 175);
+  text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.navigasi {
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.navigasi a {
+  text-decoration: none;
+  color: rgb(255, 225, 175);
+  text-shadow: 0px 0px 5px rgb(0, 0, 0);
+  padding: 5px;
+}
+/* Akhir Navbar */
+
+.box1 {
+  width: 100%;
+  height: 750px;
+  /* background-color: blueviolet; */
+}
+
+.box1_1 {
+  height: 500px;
+  /* background-color: rgb(3, 104, 42); */
+}
+
+.box1_1_1 {
   width: auto;
-  height: 720px;
+  height: 750px;
+  /* border-radius: 0px 0px 20px 20px; */
+  background-color: rgb(69, 150, 187, 0.1);
+  background-image: url(img/natur2.jpg);
+}
+
+.box2 {
+  width: 100%;
+  /* background-color: rgb(55, 3, 104); */
+}
+
+.box2_1 {
+  float: left;
+  width: 80%;
+  padding: 10%;
+  color: rgb(75, 75, 75);
+  /* background-color: rgb(3, 104, 42); */
+}
+
+.box2_2 {
+  float: left;
+  width: 80%;
+  padding: 10%;
+  color: rgb(75, 75, 75);
+  /* background-color: rgb(104, 3, 70); */
+}
+
+/* kelompok My Fortofolio */
+
+.box3 {
+  width: 100%;
   /* background-color: aqua; */
 }
-.text {
-  position: absolute;
-  top: 15%;
-  right: 15%;
-  /* background-color: aquamarine; */
-}
-.home .text h1 {
-  text-align: right;
-  color: rgba(100, 100, 100, 0.9);
+
+.box3_1 {
+  margin: 0px auto 0px;
+  width: 100%;
+  height: 50px;
+  /* background-color: chocolate; */
 }
 
-.home .text p {
-  text-align: right;
-  font-size: 20px;
-  color: rgba(100, 100, 100, 0.9);
+.box3_1_1 {
+  margin: auto;
+  padding: 10px;
+  width: 270px;
+  border-radius: 25px;
+  /*background-image: linear-gradient(to right, rgb(25, 107, 161, 0.5), rgba(25, 107, 161, 0.75), rgb(25, 107, 161, 0.5), rgba(25, 107, 161, 0.75), rgb(25, 107, 161, 0.5));*/
+  /* background-color: rgb(69, 150, 187, 0.1); */
 }
-.home .text a {
-  font-size: 25px;
-}
-.box {
-  position: absolute;
-  right: 0;
-  width: 65%;
-  height: 175px;
-  top: 15%;
-  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(75, 75, 75, 0.5));
-  z-index: 1231;
-}
-.background {
+
+.box3_1_1_1 {
   width: 100%;
-  height: 100%;
-  background-image: url("img/home.jpg");
+  background-color: rgb(255, 255, 255);
+}
+
+.box3_1_1_1_10 {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  /* border-radius: 15px;
+  background-color: rgb(0, 0, 255,0.075); */
+}
+
+.box3_1_1_1_10_1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: white; */
+  background-image: url(img/small/image10.png);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
+}
+
+.box3_1_1_1_10_2 {
+  position: absolute;
+  margin-top: 5px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 75, 75, 0.075);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25); */
+}
+
+.box3_1_1_1_9 {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  /* border-radius: 15px;
+  background-color: rgb(0, 0, 255,0.075); */
+}
+
+.box3_1_1_1_9_1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: white; */
+  background-image: url(img/small/image9.png);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
+}
+
+.box3_1_1_1_9_2 {
+  position: absolute;
+  margin-top: 5px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 75, 75, 0.075);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25); */
+}
+
+.box3_1_1_1_8 {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  /* border-radius: 15px;
+  background-color: rgb(0, 0, 255,0.075); */
+}
+
+.box3_1_1_1_8_1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: white; */
+  background-image: url(img/small/image8.png);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
+}
+
+.box3_1_1_1_8_2 {
+  position: absolute;
+  margin-top: 5px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 75, 75, 0.075);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25); */
+}
+
+.box3_1_1_1_7 {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  /* border-radius: 15px;
+  background-color: rgb(0, 0, 255,0.075); */
+}
+
+.box3_1_1_1_7_1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: white; */
+  background-image: url(img/small/image7.jpg);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
+}
+
+.box3_1_1_1_7_2 {
+  position: absolute;
+  margin-top: 5px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 75, 75, 0.075);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25); */
+}
+
+.box3_1_1_1_6 {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  /* border-radius: 15px;
+  background-color: rgb(0, 0, 255,0.075); */
+}
+
+.box3_1_1_1_6_1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: white; */
+  background-image: url(img/small/image6.png);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
+}
+
+.box3_1_1_1_6_2 {
+  position: absolute;
+  margin-top: 5px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 75, 75, 0.075);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25); */
+}
+
+.box3_1_1_1_5 {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  /* border-radius: 15px;
+  background-color: rgb(0, 0, 255,0.075); */
+}
+
+.box3_1_1_1_5_1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: white; */
+  background-image: url(img/small/image5.png);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
+}
+
+.box3_1_1_1_5_2 {
+  position: absolute;
+  margin-top: 5px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 75, 75, 0.075);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25); */
+}
+
+.box3_1_1_1_4 {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  /* border-radius: 15px;
+  background-color: rgb(0, 0, 255,0.075); */
+}
+
+.box3_1_1_1_4_1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: white; */
+  background-image: url(img/small/image4.jpg);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
+}
+
+.box3_1_1_1_4_2 {
+  position: absolute;
+  margin-top: 5px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 75, 75, 0.075);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25); */
+}
+
+.box3_1_1_1_3 {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  /* border-radius: 15px;
+  background-color: rgb(0, 0, 255,0.075); */
+}
+
+.box3_1_1_1_3_1 {
+  height: 179px;
+  width: 250px;
+  /* background-color: white; */
+  background-image: url(img/small/image3.jpg);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
+}
+
+.box3_1_1_1_3_2 {
+  position: absolute;
+  margin-top: 5px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 75, 75, 0.075);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25); */
+}
+
+.box3_1_1_1_2 {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  /* border-radius: 15px;
+  background-color: rgb(0, 0, 255,0.075); */
+}
+
+.box3_1_1_1_2_1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: white; */
+  background-image: url(img/small/image2.png);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
+}
+
+.box3_1_1_1_2_2 {
+  position: absolute;
+  margin-top: 5px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 75, 75, 0.075);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25); */
+}
+
+.box3_1_1_1_1 {
+  float: left;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  /* border-radius: 15px;
+  background-color: rgb(0, 0, 255,0.075); */
+}
+
+.box3_1_1_1_1_1 {
+  height: 250px;
+  width: 250px;
+  /* background-color: white; */
+  background-image: url(img/small/image1.jpg);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25);
+}
+
+.box3_1_1_1_1_2 {
+  position: absolute;
+  margin-top: 5px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  /* background-color: rgba(0, 75, 75, 0.075);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.25); */
+}
+
+.clear {
+  clear: both;
 }
 
 .footer {
-  position: absolute;
-  padding: 15px;
   text-align: center;
-  width: 100%;
-  height: 20px;
-  background-color: rgb(127, 255, 212, 0.2);
+  border-radius: 20px 20px 0px 0px;
+  padding: 15px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: rgb(80, 80, 80, 0.2);
 }
+
+.footer h10 {
+  text-decoration: none;
+}
+
+/*untuk layar device berukuran kecil*/
 @media screen and (min-width: 450px) {
-  .text {
-    width: 100%;
+  .box2_1,
+  .box2_2 {
+    padding: 5%;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .box2_1,
+  .box2_2 {
+    padding: 2.5%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .box1_1_1 {
+    background-color: rgb(69, 150, 187, 0.1);
+    background-image: url(img/natur.jpg);
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .box3_1_1 {
+    width: auto;
   }
 }
