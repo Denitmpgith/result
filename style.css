@@ -83,7 +83,7 @@ li {
   height: 750px;
   /* border-radius: 0px 0px 20px 20px; */
   background-color: rgb(69, 150, 187, 0.1);
-  background-image: url(img/natur2.jpg);
+  background-image: url(img/character_20.svg);
 }
 
 .box2 {
@@ -471,8 +471,9 @@ li {
 
 @media screen and (min-width: 450px) {
   .box1_1_1 {
+    background-repeat: no-repeat;
     background-color: rgb(69, 150, 187, 0.1);
-    background-image: url(img/natur.jpg);
+    background-image: url(img/character_20.svg);
   }
 }
 
