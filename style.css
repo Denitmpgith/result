@@ -81,9 +81,12 @@ li {
 .box1_1_1 {
   width: auto;
   height: 750px;
+  margin-bottom: 0;
   /* border-radius: 0px 0px 20px 20px; */
   background-color: rgb(69, 150, 187, 0.1);
   background-image: url(img/character_20.svg);
+  background-repeat: no-repeat;
+  background-position: 15% 100%;
 }
 
 .box2 {
